@@ -1,2 +1,0 @@
-# TermProject
-Group 72
