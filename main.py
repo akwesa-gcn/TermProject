@@ -21,7 +21,7 @@ def main():
     # Tkinter로 간단한 GUI 생성
     root = tk.Tk()
     root.title("화면 캡처 및 분석")
-    root.geometry("300x200")
+    root.geometry("600x400")
 
     # 설명 텍스트
     label = tk.Label(root, text="Shift + I 키를 누르면 화면을 캡처합니다.", wraplength=250)
