@@ -7,7 +7,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 
 def capture_screen():
     """
-    화면 캡처 후 텍스트 추출.
+    화면 캡처 후 텍스트 추출
     """
     # 화면 캡처
     screen = pyautogui.screenshot()
@@ -17,6 +17,6 @@ def capture_screen():
     screen_rgb = cv2.cvtColor(screen_np, cv2.COLOR_RGB2BGR)
 
     # Tesseract를 사용한 OCR 텍스트 추출
-    screen_text = pytesseract.image_to_string(screen_rgb, lang='eng')  # 'kor' 추가 가능
+    screen_text = pytesseract.image_to_string(screen_rgb, lang='eng+kor')  # +'언어'를 통해 추출하고싶은 언어 추가 가능
     return screen_text
 

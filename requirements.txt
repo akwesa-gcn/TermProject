@@ -1,6 +1,0 @@
-transformers
-opencv-python
-opencv-python-headless
-openai
-pygetwindow
-tkinter
