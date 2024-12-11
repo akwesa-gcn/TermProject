@@ -22,7 +22,7 @@ def analyze_screen_with_chatgpt(screen_text):
                     "role": "user",
                     "content": (
                         f"다음 텍스트를 읽고 상세하게 설명해"
-                        f"텍스트에서 중요한 내용을 심층적으로 분석하고 더욱 자세하게 설명해."
+                        f"텍스트에서 중요한 내용을 심층적으로 분석하고 더욱 자세하게 설명해. 파일명과 웹 주소, 북마크 등은 분석하지 마"
                         f"그리고 한글로 답변해 :\n\n{filtered_text}"
                     )
                 }
