@@ -17,7 +17,7 @@ pip install opencv-python
 pip install numpy
 pip install pyautopui
 pip install tkinter (보통은 python 표준 라이브러리에 포함되어 있음)
-set OPENAI_API_KEY=your_openai_api_key
+set OPENAI_API_KEY=your_openai_api_key (이 프로그램을 사용하기 위해선 openai API를 구매해야 합니다.)
 파이썬은 최신 버전 사용
 
 3. 실행 방법
